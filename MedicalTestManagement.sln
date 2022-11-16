@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Domain", "Services\Booking\Booking.Domain\Booking.Domain.csproj", "{2906B38D-3F42-451A-A91C-C366C2917C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Infrastructure", "Services\Booking\Booking.Infrastructure\Booking.Infrastructure.csproj", "{DABB42F9-DEDE-48B9-BEF0-2DE8765315BC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2906B38D-3F42-451A-A91C-C366C2917C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2906B38D-3F42-451A-A91C-C366C2917C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2906B38D-3F42-451A-A91C-C366C2917C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2906B38D-3F42-451A-A91C-C366C2917C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABB42F9-DEDE-48B9-BEF0-2DE8765315BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABB42F9-DEDE-48B9-BEF0-2DE8765315BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABB42F9-DEDE-48B9-BEF0-2DE8765315BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABB42F9-DEDE-48B9-BEF0-2DE8765315BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
